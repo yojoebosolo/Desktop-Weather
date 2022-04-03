@@ -2,6 +2,6 @@
 Code for the Desktop Weather build
 
 
-Libraries installs needed:
+Libraries needed:
 
-```pip install requests```
+Requests - ```pip install requests```
