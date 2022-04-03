@@ -1,4 +1,9 @@
 # Desktop-Weather
+
+Find the build guide here:
+https://mustardcorner.com/desktop-weather
+
+
 Code for the Desktop Weather build
 
 ```sudo apt-get install git```
