@@ -16,8 +16,10 @@ GPIO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 servo_1 = GPIO.PWM(servo_pin_1, 50) # GPIO 17 for PWM with 50Hz
 servo_2 = GPIO.PWM(servo_pin_2, 50) # GPIO 17 for PWM with 50Hz
 
-servo_1.start(0)
-servo_2.start(11.9)
+servo_1.start(5)
+
+servo_2.start(5)
+
 time.sleep(2)
 
 """
