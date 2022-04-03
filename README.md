@@ -1,26 +1,26 @@
 # Desktop-Weather
 Code for the Desktop Weather build
 
-    ```sudo apt-get install git```
+```sudo apt-get install git```
 
-    ```git clone https://github.com/yojoebosolo/Desktop-Weather.git```
+```git clone https://github.com/yojoebosolo/Desktop-Weather.git```
 
 
 Libraries needed:
 
-    Requests - ```pip install requests```
+Requests - ```pip install requests```
 
 
 Crontab setup needed:
 
-    ```crontab -e```
+```crontab -e```
 
 add the following line to the bottom: 
 
-    ``` @reboot sleep 100 && python3 /home/pi/Desktop-Weather/main.py ```
+``` @reboot sleep 100 && python3 /home/pi/Desktop-Weather/main.py ```
 
-    "Control + X"
+"Control + X"
 
-    "Y" _(yes)_
+"Y" _(yes)_
 
-    "Enter"
+"Enter"
