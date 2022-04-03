@@ -18,8 +18,8 @@ add the following line to the bottom:
 
 ``` @reboot sleep 100 && python3 /home/pi/Desktop-Weather/main.py ```
 
-Control + X
+"Control + X"
 
-Y (yes)
+"Y" _(yes)_
 
-Enter
+"Enter"
