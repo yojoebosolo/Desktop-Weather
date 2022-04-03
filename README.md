@@ -2,7 +2,7 @@
 Code for the Desktop Weather build
 
 
-```https://github.com/yojoebosolo/Desktop-Weather.git```
+```git clone https://github.com/yojoebosolo/Desktop-Weather.git```
 
 
 Libraries needed:
