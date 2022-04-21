@@ -41,25 +41,11 @@ time.sleep(.4)
 
 
 positions = {"Clear": 11.9,
-
                "Clouds": 10.1,
-
                "Rain": 8,
-               "Drizzle": 8,
-
                "Thunderstorm": 5.9,
-
                "Snow": 3.9,
-
                "Mist": 2.1,
-               "Smoke": 2.1,
-               "Haze": 2.1,
-               "Dust": 2.1,
-               "Fog": 2.1,
-               "Sand": 2.1,
-               "Ash": 2.1,
-               "Squall": 2.1,
-               "Tornado": 2.1,
 
                "Now": 12,
                "3hr": 10.2,
