@@ -13,7 +13,7 @@ Code for the Desktop Weather build
 
 Libraries needed:
 
-Requests - ```pip install requests```
+Requests - ```apt-get install python3-pip -y```
 
 
 Crontab setup needed:
