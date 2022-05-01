@@ -15,6 +15,8 @@ Libraries needed:
 
 Requests - ```pip install requests```
 
+IF using RaspiOS Lite, you will need to install pip.
+
 
 Crontab setup needed:
 
