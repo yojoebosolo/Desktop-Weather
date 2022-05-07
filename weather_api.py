@@ -1,10 +1,11 @@
 import json
 import requests
 import datetime as datetime
+import os
 
-token = ""
-lat = ""
-lon = ""
+token = os.getenv("OPEN_WEATHER_APIKEY", '').lower()
+lat = os.getenv("LATITUDE", "19.6069")
+lon = os.getenv("LONGITUDE", "-155.5056")
 
 api_request_url_onecall = f"https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude=minutely&appid={token}&units=metric"
 
