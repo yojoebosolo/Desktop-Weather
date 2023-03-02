@@ -3,13 +3,14 @@ from weather_api import get_weather_forecast
 import time
 import RPi.GPIO as GPIO
 import datetime as datetime
+import os
 
 GPIO.cleanup()
 
 
-servo_pin_1 = 18
-servo_pin_2 = 23
-button_pin = 17
+servo_pin_1 = os.getenv("SERVO_PIN_1", 18)
+servo_pin_2 = os.getenv("SERVO_PIN_2", 23)
+button_pin = os.getenv("BUTTON_PIN", 17)
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(servo_pin_1, GPIO.OUT)
